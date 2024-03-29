@@ -31,7 +31,7 @@ function Projects() {
                 </article>
                 <article className="Project">
                     <h3>Poke-Pedia</h3>
-                    <a href="https://shhutc18.github.io/Poke-Pedia/index.html?name=binacle">Depolyed Project</a>
+                    <a href="https://shhutc18.github.io/Poke-Pedia/">Depolyed Project</a>
                     <a href="https://github.com/shhutc18/Poke-Pedia" target="_blank">Github Repository</a>
                     <p>Poke-Pedia was the first group project I worked on with classmates in my coding bootcamp. 
                     It uses the <a href="https://pokeapi.co/" target="_blank">Pokeapi</a> to fetch all 1118 Pokemon.
@@ -47,8 +47,30 @@ function Projects() {
                     <p>This project was early on in the coding bootcamp and there is no backend.</p>
                 </article>
                 <article className="Project">
-                    <h3>Project 3</h3>
-                    <p>Project Description</p>
+                    <h3>Daily Planner</h3>
+                    <a href="https://rocky-mountain-31745-6823d73c66a2.herokuapp.com/">Depolyed Project</a>
+                    <a href="https://github.com/shhutc18/Daily-Planner" target="_blank">Github Repository</a>
+                    <p>Daily Planner was the second group project I worked on in my coding bootcamp. 
+                    We had two main goals for this project: first was to create a daily planner using the model, view, controller (MVC) design pattern, and second was to implement a user authentication system.
+                    We used a handful of new technologies to achieve these goals and I learned a lot about how to structure a project in a way that is scalable and maintainable.
+                    Below are some of the technologies used to build the application.</p>
+                    <h4>Frontend:</h4>
+                    <ul>
+                        <li>Handlebars.js</li>
+                        <li>Tailwind CSS via CDN</li>
+                    </ul>
+                    <h4>Backend:</h4>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Sequelize</li>
+                        <li>Passport.js</li>
+                        <li>Mysql</li>
+                        <li>Express</li>
+                        <li>Express Sessions</li>
+                        <li>Express Handlebars</li>
+                        <li>Dotenv</li>
+                        <li>Crypto</li>
+                    </ul>
                 </article>
                 <article className="Project">
                     <h3>Project 4</h3>
