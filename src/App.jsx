@@ -1,6 +1,4 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import AboutMe from './components/AboutMe.jsx';
@@ -9,20 +7,19 @@ import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import './App.css'
 
-
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
+    <Router>
       <Header />
-      <AboutMe />
-      <Projects />
-      <Resume />
-      <Contact />
+      <Routes>
+      <Route path="/" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   )
 }
 
-export default App
+export default App;

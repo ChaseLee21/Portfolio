@@ -1,24 +1,23 @@
 function AboutMe() {
     return (
-        <section className="AboutMe">
-            <h2>About Me</h2>
-            <p>
-                My name is Chase Seeberger and I currently live in Oregon with my girlfriend, our two cats: Baby and Marie, and my betta fish Sebastion.
-                I have been working with computers since I was a kid and I have always been fascinated with how they work and what they can do.
-                I built my first computer when I was 12 with the help of my mom and a set of instructions that were not written in English.
-                Since then, I have been hooked on figuring out how technology works and how I can use it to make my life easier.
-                I took my first computer science class freshman year of high school and I loved it.
-                Currently, I am studying web developement through a bootcamp program put on by the University of Oregon where I am learning to develope things that make our lives easier. 
-            </p>
-            <p>
-                Creativity has always been very important to me and I express it through my hobbies.
-                Some of my hobbies include playing video games, building aquariums, and painting.
-                My love for video games comes from having the ability express myself, solve problems, and be creative in a way that I can't in real life.
-                I love to build aquariums because it allows me to create a beautiful ecosystem that I can watch grow and change over time.
-                Painting allows me to express my creativity in a way that is very relaxing and therapeutic.
-                Web developement is a great way for me to express my creativity and I am excited to see where it takes me.
-                A future project I would love to build would be a website where the user can create their own aquarium and watch it grow and change over time.
-            </p> 
+        <section className="bg-white bg-opacity-85 rounded m-2 p-2 lg:m-4 xl:m-8">
+            <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">About Me</h2>
+            <div className="flex flex-col justify-center items-center">
+                <figure className="flex justify-center items-center">
+                    <img className="rounded-md m-3 max-w-[30vw]" src="./src/assets/Me-at-the-beach.jpg" alt="Me at the beach" />
+                    <figcaption className="text-center max-w-[90%] lg:max-w-[50%]">
+                        I currently live in Oregon with my girlfriend and our two cats.
+                        My web development journey started when I was 14 in high school and I took a class on HTML, CSS, and Javascript.
+                        I enjoyed writing code and seeing how I could create an application that could be used by others to help them.
+                        Computers and technology has always interested me and I love learning about how they work and how I can use them to make my life easier.
+                        I took a couple more classes in high school which covered more advanced topics like SQL and PHP.
+                        Ever since I took those classes I have wanted to further my knowledge in web development.
+                        Fast forward to 2023, I decided to take the leap and enroll in a coding bootcamp to further my knowledge in web development.
+                        I finished a coding bootcamp through the University of Oregon in spring of 2024 and I am currently looking for a job in web development.
+                        The following is a list of skills I have learned so far in my web development journey: HTML, CSS, Javascript, Git, React, Vue, jQuery, Node.js, Express.js, Passport.js, SQL, MongoDB, Mongoose, RESTful APIs, GraphQL, .NET 4, .NET 6, ASP.NET, Bootstrap, Tailwind CSS, Azure App Services, Azure SQL Database, Azure Blob Storage.
+                    </figcaption>
+                </figure>
+            </div>
         </section>
     );
   }
