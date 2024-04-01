@@ -40,9 +40,9 @@ function Projects() {
             One, implement Webpack so a user could download on their machine through their browser. 
             Two, implement an indexedDB database that would store the users code between sessions.
             Three, implement a service worker that would cache images, scripts, and css.`,
-            frontend: ["Code Mirror"],
+            frontend: [],
             backend: ["IndexedDB", "Workbox Service Worker", "Express"],
-            other: ["express"],
+            other: ["Code Mirror", "Webpack"],
             image: "https://via.placeholder.com/300",
             deployed: "https://pwa-text-editor-x7hj.onrender.com/",
             github: "https://github.com/ChaseLee21/PWA-Text-Editor"
@@ -86,7 +86,7 @@ function Projects() {
 
     return (
         <main>
-            <main className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8">
+            <main className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8 ">
                 <h1 className='text-xl md:text-2xl xl:text-4xl text-center font-bold mb-2'>Portfolio</h1>
                 <ProjectCard project={projects[0]} />
                 <ProjectCard project={projects[1]} />

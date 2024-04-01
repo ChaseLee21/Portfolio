@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
 
   return (
     <main>
-        <section className="flex flex-col justify-center">
+        <section className="flex flex-col justify-center my-6">
             <h3 className="text-center text-lg lg:text-2xl">
                 <a className="text-center underline text-blue-600 hover:text-blue-900" href={project.deployed} target="_blank">
                     { project.title }
@@ -24,9 +24,9 @@ function ProjectCard({ project }) {
             <p className="m-auto text-base max-w-[90%] lg:max-w-[50%] p-2 indent-5">
                 { project.description }
             </p>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-col md:flex-row items-stretch justify-center">
                 <figure className="hover:">
-                    <img className="rounded border-black border-2 m-1" src={project.image} alt={project.imageAlt} />
+                    <img className="rounded border-black border-2 m-auto" src={project.image} alt={project.imageAlt} />
                 </figure>
                 {frontendList.length > 0 && <List items={frontendList} title={'Frontend:'} />}
                 {backendList.length > 0 && <List items={backendList} title={'Backend:'} />}
