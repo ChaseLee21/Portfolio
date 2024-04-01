@@ -1,36 +1,63 @@
+import ProjectCard from './ProjectCard';
+
 function Projects() {
+
+    const projects = [
+        {
+            title: "Boise Tuxedo Shop",
+            description: "Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. Users can view information such as store hours, product images and descriptions, pricing for services, information about events such as prom, and more. Some of the technologies used to build the application are listed below.",
+            frontend: ["Vue 3", "Vue Router", "Tailwind CSS via CLI", "Google Maps API"],
+            backend: [".NET", "ASP.NET", "Entity Framework Core", "Azure Services", "Azure Blob Storages", "SQL Server", "Polly", "Dapper"],
+            other: [],
+            image: "https://via.placeholder.com/300",
+            deployed: "https://www.boisetuxedoshop.com",
+            github: ""
+        }
+    ];
+
+
     return (
         <main>
+        <ProjectCard project={projects[0]} />
             <section className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8">
                 <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">Projects</h2>
-                <article className="flex flex-col">
-                    <h3 className="text-center text-lg lg:text-2xl">Boise Tuxedo Shop</h3>
-                    <a className="text-center underline text-blue-600" href="https://www.boisetuxedoshop.com" target="_blank">Deployed Project</a>
-                    <p className="text-center">Github Repository: private</p>
-                    <p>Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. 
-                    Users can view information such as store hours, product images and descriptions, pricing for services, information about events such as prom, and more.
-                    Some of the technologies used to build the application are listed below.</p>
-                    <div className="border-black rounded border-2 p-2 m-1">
-                        <h4 className="text-lg">Frontend</h4>
-                        <ul className="list-disc list-inside">
-                            <li>Vue 3</li>
-                            <li>Vue Router</li>
-                            <li>Tailwind CSS via CLI</li>
-                            <li>Google Maps API</li>
-                        </ul>
-                    </div>
-                    <div className="border-black rounded border-2 p-2 m-1">
-                        <h4>Backend:</h4>
-                        <ul className="list-disc list-inside">
-                            <li>.NET</li>
-                            <li>ASP.NET</li>
-                            <li>Entity Framework Core</li>
-                            <li>Azure Services</li>
-                            <li>Azure Blob Storages</li>
-                            <li>SQL Server</li>
-                            <li>Polly</li>
-                            <li>Dapper</li>
-                        </ul>
+                <article className="flex flex-col justify-center">
+                    <h3 className="text-center text-lg lg:text-2xl">
+                        <a className="text-center underline text-blue-600 hover:text-blue-900" href="https://www.boisetuxedoshop.com" target="_blank">
+                            Boise Tuxedo Shop
+                        </a>
+                    </h3>
+                    <p className="m-auto text-base max-w-[90%] lg:max-w-[50%] p-2 indent-5">
+                        Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. 
+                        Users can view information such as store hours, product images and descriptions, pricing for services, information about events such as prom, and more.
+                        Some of the technologies used to build the application are listed below.
+                    </p>
+                    <div className="flex flex-wrap justify-center">
+                        <figure className="hover:">
+                            <img className="rounded border-black border-2 m-1" src="https://via.placeholder.com/300" alt="Boise Tuxedo Shop" />
+                        </figure>
+                        <div className="border-black rounded border-2 p-2 m-1">
+                            <h4 className="text-lg">Frontend</h4>
+                            <ul className="list-disc list-inside">
+                                <li>Vue 3</li>
+                                <li>Vue Router</li>
+                                <li>Tailwind CSS via CLI</li>
+                                <li>Google Maps API</li>
+                            </ul>
+                        </div>
+                        <div className="border-black rounded border-2 p-2 m-1">
+                            <h4>Backend:</h4>
+                            <ul className="list-disc list-inside">
+                                <li>.NET</li>
+                                <li>ASP.NET</li>
+                                <li>Entity Framework Core</li>
+                                <li>Azure Services</li>
+                                <li>Azure Blob Storages</li>
+                                <li>SQL Server</li>
+                                <li>Polly</li>
+                                <li>Dapper</li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
                 <article className="Project">
