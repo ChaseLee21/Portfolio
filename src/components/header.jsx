@@ -1,6 +1,7 @@
 function Header() {
+
   return (
-    <header className="Header">
+    <header className="header">
         <h1>Chase Seeberger</h1>
         <nav>
             <ul>
