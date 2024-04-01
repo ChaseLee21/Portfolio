@@ -19,9 +19,9 @@ function Projects() {
             frontend: ["JQuery", "Tailwind CSS via CDN"],
             backend: ["Pokeapi"],
             other: [],
-            image: "https://via.placeholder.com/300",
-            deployed: "https://github.com/shhutc18/Poke-Pedia",
-            github: "https://shhutc18.github.io/Poke-Pedia/"
+            image: "./src/assets/pokepedia.png",
+            deployed: "https://shhutc18.github.io/Poke-Pedia/",
+            github: "https://github.com/shhutc18/Poke-Pedia"
         },
         {
             title: "Daily Planner",

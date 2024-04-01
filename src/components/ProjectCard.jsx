@@ -25,8 +25,8 @@ function ProjectCard({ project }) {
                 { project.description }
             </p>
             <div className="flex flex-col md:flex-row items-stretch justify-center">
-                <figure className="hover:">
-                    <img className="rounded border-black border-2 m-auto" src={project.image} alt={project.imageAlt} />
+                <figure className="hover:opacity-50 hover:cursor-pointer">
+                    <a href={project.deployed} target="_blank"><img className="max-w-[30vw] rounded border-black border-2 m-auto" src={project.image} alt={project.imageAlt} /></a>
                 </figure>
                 {frontendList.length > 0 && <List items={frontendList} title={'Frontend:'} />}
                 {backendList.length > 0 && <List items={backendList} title={'Backend:'} />}
