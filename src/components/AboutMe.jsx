@@ -1,6 +1,6 @@
 function AboutMe() {
     return (
-        <section className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8">
+        <section className="bg-white bg-opacity-85 rounded m-2 p-2 lg:m-4 xl:m-8">
             <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">About Me</h2>
             <div className="flex flex-col justify-center items-center">
                 <figure className="flex justify-center items-center">

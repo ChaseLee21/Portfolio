@@ -85,7 +85,7 @@ function Contact() {
 
 
     return (
-        <section className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8">
+        <section className="bg-white bg-opacity-85 rounded m-2 p-2 lg:m-4 xl:m-8">
             <h2 className="text-xl md:text-2xl xl:text-4xl text-center font-bold mb-2">Contact</h2>
             <p className="text-center text-base lg:text-xl">
                 Feel free to reach out to me with any questions or inquiries by filling out the form below
