@@ -15,7 +15,7 @@ function AboutMe() {
                 </p>
                 <p className="m-3">
                     The following is a list of skills I have learned so far in my web development journey:
-                    <ul>
+                    <ul className="list-disc list-inside">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>

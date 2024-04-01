@@ -1,8 +1,8 @@
 function Projects() {
     return (
         <main>
-            <h2>Projects</h2>
-            <section className="ProjectContainer">
+            <section className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8">
+                <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">Projects</h2>
                 <article className="Project">
                     <h3>Boise Tuxedo Shop</h3>
                     <a href="https://www.boisetuxedoshop.com" target="_blank">Deployed Project</a>
