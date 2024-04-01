@@ -4,7 +4,7 @@ function AboutMe() {
             <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">About Me</h2>
             <div className="flex flex-col justify-center items-center">
                 <figure className="flex justify-center items-center">
-                    <img className="rounded-md m-3 max-w-[30vw]" src="./src/assets/Me-at-the-beach.jpg" alt="Me at the beach" />
+                    <img className="rounded-md m-3 max-w-[30vw]" src="./Me-at-the-beach.jpg" alt="Me at the beach" />
                     <figcaption className="text-center max-w-[90%] lg:max-w-[50%]">
                         I currently live in Oregon with my girlfriend and our two cats.
                         My web development journey started when I was 14 in high school and I took a class on HTML, CSS, and Javascript.

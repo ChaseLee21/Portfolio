@@ -9,7 +9,7 @@ function Projects() {
             frontend: ["Vue 3", "Vue Router", "Tailwind CSS via CLI", "Google Maps API"],
             backend: [".NET", "ASP.NET", "Entity Framework Core", "Azure Services", "Azure Blob Storages", "SQL Server", "Polly", "Dapper"],
             other: [],
-            image: "./src/assets/boise-tuxedo-shop.png",
+            image: "./boise-tuxedo-shop.png",
             deployed: "https://www.boisetuxedoshop.com",
             github: ""
         },
@@ -19,7 +19,7 @@ function Projects() {
             frontend: ["JQuery", "Tailwind CSS via CDN"],
             backend: ["Pokeapi"],
             other: [],
-            image: "./src/assets/pokepedia.png",
+            image: "./pokepedia.png",
             deployed: "https://shhutc18.github.io/Poke-Pedia/",
             github: "https://github.com/shhutc18/Poke-Pedia"
         },
@@ -29,7 +29,7 @@ function Projects() {
             frontend: ["Handlebars.js", "Tailwind CSS via CDN"],
             backend: ["Node.js", "Express", "Sequelize", "Passport.js", "Mysql", "Express Sessions", "Express Handlebars", "Dotenv", "Crypto"],
             other: [],
-            image: "./src/assets/daily-planner.png",
+            image: "./daily-planner.png",
             deployed: "https://rocky-mountain-31745-6823d73c66a2.herokuapp.com/login",
             github: "https://github.com/shhutc18/Daily-Planner/"
         },
@@ -43,7 +43,7 @@ function Projects() {
             frontend: [],
             backend: ["IndexedDB", "Workbox Service Worker", "Express"],
             other: ["Code Mirror", "Webpack"],
-            image: "./src/assets/text-editor.png",
+            image: "./text-editor.png",
             deployed: "https://pwa-text-editor-x7hj.onrender.com/",
             github: "https://github.com/ChaseLee21/PWA-Text-Editor"
         },
@@ -60,7 +60,7 @@ function Projects() {
             frontend: [],
             backend: ["Node.js", "Mysql", "Express", "sequelize", "Dotenv"],
             other: [],
-            image: "./src/assets/ecommerce.png",
+            image: "./ecommerce.png",
             deployed: "https://drive.google.com/file/d/1PLICnX2UrKDw8F4uEQRnvIrsyHUJIJWK/view?pli=1",
             github: "https://github.com/ChaseLee21/Ecommerce-Backend"
         },
@@ -77,7 +77,7 @@ function Projects() {
             frontend: [],
             backend: ["Node.js", "Mongoose", "Express", "MongoDB"],
             other: [],
-            image: "./src/assets/social-network.png",
+            image: "./social-network.png",
             deployed: "https://drive.google.com/file/d/1P5P0UGtThCpoft0UOY2Y5RlqbxU0FLaX/view",
             github: "https://github.com/ChaseLee21/Social-Network-Api"
         },
