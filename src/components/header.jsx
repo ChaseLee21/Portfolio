@@ -1,4 +1,5 @@
 function Header() {
+
   return (
     <header className="bg-blue-950 flex flex-row flex-nowrap items-center justify-between">
         <h1 className="text-white font-bold text-xl md:text-2xl xl:text-4xl m-2">Chase Seeberger</h1>
