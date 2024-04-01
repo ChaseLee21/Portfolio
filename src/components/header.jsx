@@ -1,7 +1,7 @@
 function Header() {
 
   return (
-    <header className="header">
+    <header className="bg-slate-800">
         <h1>Chase Seeberger</h1>
         <nav>
             <ul>
