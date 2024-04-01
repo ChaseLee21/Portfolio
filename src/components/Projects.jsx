@@ -1,10 +1,10 @@
 import ProjectCard from './ProjectCard';
-import boisetuxedoshopImage from '../assets/boise-tuxedo-shop.png';
-import pokepediaImage from '../assets/pokepedia.png';
-import dailyPlannerImage from '../assets/daily-planner.png';
-import textEditorImage from '../assets/text-editor.png';
-import ecommerceImage from '../assets/ecommerce.png';
-import socialNetworkImage from '../assets/social-network.png';
+import boisetuxedoshopImage from '../boise-tuxedo-shop.png';
+import pokepediaImage from '../pokepedia.png';
+import dailyPlannerImage from '../daily-planner.png';
+import textEditorImage from '../text-editor.png';
+import ecommerceImage from '../ecommerce.png';
+import socialNetworkImage from '../social-network.png';
 
 function Projects() {
 

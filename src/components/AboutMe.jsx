@@ -1,4 +1,4 @@
-import aboutMeImage from '../assets/me-at-the-beach.jpg';
+import aboutMeImage from '../me-at-the-beach.jpg';
 
 function AboutMe() {
     return (
