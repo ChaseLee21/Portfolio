@@ -73,8 +73,27 @@ function Projects() {
                     </ul>
                 </article>
                 <article className="Project">
-                    <h3>Project 4</h3>
-                    <p>Project Description</p>
+                    <h3>Text Editor - Progressive Web Application</h3>
+                    <a href="https://pwa-text-editor-x7hj.onrender.com/">Depolyed Project</a>
+                    <a href="https://github.com/ChaseLee21/PWA-Text-Editor" target="_blank">Github Repository</a>
+                    <p>This project was apart of my coding bootcamp at University of Oregon for web development. 
+                    In this project I was given some starter code and my task was to finish the project. 
+                    The code that was given to me was a text editor that was built using Code Mirror.
+                    My goal was to do three things:
+                    1 - Implement Webpack so a user could download on their machine through their browser. 
+                    2 - Implement an indexedDB database that would store the users code between sessions.
+                    3 - Implement a service worker that would cache images, scripts, and css.
+                    </p>
+                    <h4>Backend:</h4>
+                    <ul>
+                        <li>IndexedDB</li>
+                        <li>Workbox Service Worker</li>
+                        <li>express</li>
+                    </ul>
+                    <h4>Other Packages:</h4>
+                    <ul>
+                        <li>Webpack</li>
+                    </ul>
                 </article>
                 <article className="Project">
                     <h3>Project 5</h3>
