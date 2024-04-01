@@ -87,7 +87,7 @@ function Projects() {
     return (
         <main>
             <main className="bg-white rounded m-2 p-2 lg:m-4 xl:m-8 ">
-                <h1 className='text-xl md:text-2xl xl:text-4xl text-center font-bold mb-2'>Portfolio</h1>
+                <h2 className='text-xl md:text-2xl xl:text-4xl text-center font-bold mb-2'>Portfolio</h2>
                 <ProjectCard project={projects[0]} />
                 <ProjectCard project={projects[1]} />
                 <ProjectCard project={projects[2]} />

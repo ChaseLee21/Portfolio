@@ -4,6 +4,8 @@ function Footer() {
             <section className="flex">
                 <a className="mx-2" href="https://github.com/ChaseLee21" target="_blank">Github</a>
                 <a className="mx-2" href="https://www.linkedin.com/in/chaseseeberger/" target="_blank">LinkedIn</a>
+                <p className="mx-2">(208) 995 - 5987</p>
+                <p className="mx-2">chase.seeberger@gmail.com</p>
             </section>
             <section>
                 <p className="text-sm">Created by Chase Seeberger</p>
