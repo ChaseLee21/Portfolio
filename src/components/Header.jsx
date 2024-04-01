@@ -10,7 +10,7 @@ function Header() {
                 <li className="px-2"><a href="#projects">Projects</a></li>
                 <li className="px-2"><a href="#contact">Contact</a></li>
                 <li className="px-2"><a href="#contact">Resume</a></li>
-      </ul> 
+            </ul> 
         </nav>
     </header>
   );
