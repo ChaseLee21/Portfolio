@@ -9,7 +9,7 @@ function Projects() {
             frontend: ["Vue 3", "Vue Router", "Tailwind CSS via CLI", "Google Maps API"],
             backend: [".NET Framework", "Entity Framework", "Azure SQL Server", "Azure Blob Storage", "Azure App Service"],
             other: [],
-            image: "public/boise-tuxedo-shop.png",
+            image: "/boise-tuxedo-shop.png",
             deployed: "https://www.boisetuxedoshop.com",
             github: ""
         },
@@ -19,7 +19,7 @@ function Projects() {
             frontend: ["React", "React Router", "Tailwind CSS via CLI", "Apollo Client", "GraphQL"],
             backend: ["Node", "Express", "Mongoose", "Apollo Server", "GraphQL", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
             other: [],
-            image: "public/the-tech-umbrella.png",
+            image: "/the-tech-umbrella.png",
             deployed: "https://the-tech-umbrella.onrender.com",
             github: "https://github.com/shhutc18/The-Tech-Umbrella"
         },
@@ -29,7 +29,7 @@ function Projects() {
             frontend: ["React", "React Router", "Apollo Client", "GraphQL", "Bootstrap", "Google Books API"],
             backend: ["Apollo Server", "GraphQL", "Express", "Mongoose", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
             other: [],
-            image: "public/book-search-graphql.png",
+            image: "/book-search-graphql.png",
             deployed: "https://graphql-book-search-engine.onrender.com/",
             github: "https://github.com/shhutc18/The-Tech-Umbrella"
         },
@@ -39,7 +39,7 @@ function Projects() {
             frontend: ["Handlebars.js", "Tailwind CSS via CDN"],
             backend: ["Node.js", "Express", "Sequelize", "Passport.js", "Mysql", "Express Sessions", "Express Handlebars", "Dotenv", "Crypto"],
             other: [],
-            image: "public/daily-planner.png",
+            image: "/daily-planner.png",
             deployed: "https://rocky-mountain-31745-6823d73c66a2.herokuapp.com/login",
             github: "https://github.com/shhutc18/Daily-Planner/"
         },
@@ -53,7 +53,7 @@ function Projects() {
             frontend: [],
             backend: ["IndexedDB", "Workbox Service Worker", "Express"],
             other: ["Code Mirror", "Webpack"],
-            image: "public/text-editor.png",
+            image: "/text-editor.png",
             deployed: "https://pwa-text-editor-x7hj.onrender.com/",
             github: "https://github.com/ChaseLee21/PWA-Text-Editor"
         },
@@ -70,7 +70,7 @@ function Projects() {
             frontend: [],
             backend: ["Node.js", "Mysql", "Express", "sequelize", "Dotenv"],
             other: [],
-            image: "public/ecommerce.png",
+            image: "/ecommerce.png",
             deployed: "https://drive.google.com/file/d/1PLICnX2UrKDw8F4uEQRnvIrsyHUJIJWK/view?pli=1",
             github: "https://github.com/ChaseLee21/Ecommerce-Backend"
         },
@@ -87,7 +87,7 @@ function Projects() {
             frontend: [],
             backend: ["Node.js", "Mongoose", "Express", "MongoDB"],
             other: [],
-            image: "public/social-network.png",
+            image: "/social-network.png",
             deployed: "https://drive.google.com/file/d/1P5P0UGtThCpoft0UOY2Y5RlqbxU0FLaX/view",
             github: "https://github.com/ChaseLee21/Social-Network-Api"
         },
@@ -97,7 +97,7 @@ function Projects() {
             frontend: ["JQuery", "Tailwind CSS via CDN", "Pokeapi"],
             backend: [],
             other: [],
-            image: "public/pokepedia.png",
+            image: "/pokepedia.png",
             deployed: "https://shhutc18.github.io/Poke-Pedia/",
             github: "https://github.com/shhutc18/Poke-Pedia"
         },
@@ -115,6 +115,7 @@ function Projects() {
                 <ProjectCard project={projects[4]} />
                 <ProjectCard project={projects[5]} />
                 <ProjectCard project={projects[6]} />
+                <ProjectCard project={projects[7]} />
             </main>
         </main>
     );

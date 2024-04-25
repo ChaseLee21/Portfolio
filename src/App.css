@@ -1,6 +1,6 @@
 body {
     background-color: #1e40af;
-    background-image: url("public/beach-background-landscape.jpg");
+    background-image: url("/beach-background-landscape.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
