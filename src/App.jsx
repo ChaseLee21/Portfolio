@@ -4,7 +4,6 @@ import Footer from './components/Footer.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Resume from './components/Resume.jsx';
 import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
 import './App.css'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Route path="/" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
