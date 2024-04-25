@@ -14,6 +14,16 @@ function Projects() {
             github: ""
         },
         {
+            title: "The Tech Umbrella",
+            description: "The Tech Umbrella was my final group project in my coding bootcamp. We were tasked with creating an application using the MERN stack (MongoDb, Express, React, Node). We created a blog application with the focus being on technology. Users can register an accout, login, create posts, browse posts from other users, comment on posts, and like posts. I specifically worked on creating the authentication system, and implementing GraphQL mutations and queries for both the backend and frontend. Note: The application is hosted on Render and may take a few seconds to load.",
+            frontend: ["React", "React Router", "Tailwind CSS via CLI", "Apollo Client", "GraphQL"],
+            backend: ["Node.js", "Express", "Mongoose", "Apollo Server", "GraphQL", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
+            other: [],
+            image: "public/the-tech-umbrella.png",
+            deployed: "https://the-tech-umbrella.onrender.com",
+            github: "https://github.com/shhutc18/The-Tech-Umbrella"
+        },
+        {
             title: "Daily Planner",
             description: "Daily Planner was the second group project I worked on in my coding bootcamp. We had two main goals for this project: first was to create a daily planner using the model, view, controller (MVC) design pattern, and second was to implement a user authentication system. We used a handful of new technologies to achieve these goals and I learned a lot about how to structure a project in a way that is scalable and maintainable. Below are some of the technologies used to build the application.",
             frontend: ["Handlebars.js", "Tailwind CSS via CDN"],
