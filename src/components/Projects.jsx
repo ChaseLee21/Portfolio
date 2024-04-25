@@ -5,9 +5,9 @@ function Projects() {
     const projects = [
         {
             title: "Boise Tuxedo Shop",
-            description: "Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. Users can view information such as store hours, product images and descriptions, pricing for services, information about events such as prom, and more. Some of the technologies used to build the application are listed below.",
+            description: "Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. Included with the website is a custom admin dashboard that allows them to edit certain content of the website without the need of a developer (ex. add or change a product in their catalog). ",
             frontend: ["Vue 3", "Vue Router", "Tailwind CSS via CLI", "Google Maps API"],
-            backend: [".NET", "ASP.NET", "Entity Framework Core", "Azure Services", "Azure Blob Storages", "SQL Server", "Polly", "Dapper"],
+            backend: [".NET Framework", "Entity Framework", "Azure SQL Server", "Azure Blob Storage", "Azure App Service"],
             other: [],
             image: "public/boise-tuxedo-shop.png",
             deployed: "https://www.boisetuxedoshop.com",
@@ -17,7 +17,7 @@ function Projects() {
             title: "The Tech Umbrella",
             description: "The Tech Umbrella was my final group project in my coding bootcamp. We were tasked with creating an application using the MERN stack (MongoDb, Express, React, Node). We created a blog application with the focus being on technology. Users can register an accout, login, create posts, browse posts from other users, comment on posts, and like posts. I specifically worked on creating the authentication system, and implementing GraphQL mutations and queries for both the backend and frontend. Note: The application is hosted on Render and may take a few seconds to load.",
             frontend: ["React", "React Router", "Tailwind CSS via CLI", "Apollo Client", "GraphQL"],
-            backend: ["Node.js", "Express", "Mongoose", "Apollo Server", "GraphQL", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
+            backend: ["Node", "Express", "Mongoose", "Apollo Server", "GraphQL", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
             other: [],
             image: "public/the-tech-umbrella.png",
             deployed: "https://the-tech-umbrella.onrender.com",
@@ -104,6 +104,7 @@ function Projects() {
                 <ProjectCard project={projects[3]} />
                 <ProjectCard project={projects[4]} />
                 <ProjectCard project={projects[5]} />
+                <ProjectCard project={projects[6]} />
             </main>
         </main>
     );
