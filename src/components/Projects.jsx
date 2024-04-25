@@ -14,16 +14,6 @@ function Projects() {
             github: ""
         },
         {
-            title: "Poke-Pedia",
-            description: "Poke-Pedia was the first group project I worked on with classmates in my coding bootcamp. It uses the <a href='https://pokeapi.co/' target='_blank'>Pokeapi</a> to fetch all 1118 Pokemon. We then used this data to create an encyclopedia that allows users to search & view Pokemon. This was a really fun project for me to work on and it encapsulates a part of my coding journey that I will remember for a long time.",
-            frontend: ["JQuery", "Tailwind CSS via CDN"],
-            backend: ["Pokeapi"],
-            other: [],
-            image: "public/pokepedia.png",
-            deployed: "https://shhutc18.github.io/Poke-Pedia/",
-            github: "https://github.com/shhutc18/Poke-Pedia"
-        },
-        {
             title: "Daily Planner",
             description: "Daily Planner was the second group project I worked on in my coding bootcamp. We had two main goals for this project: first was to create a daily planner using the model, view, controller (MVC) design pattern, and second was to implement a user authentication system. We used a handful of new technologies to achieve these goals and I learned a lot about how to structure a project in a way that is scalable and maintainable. Below are some of the technologies used to build the application.",
             frontend: ["Handlebars.js", "Tailwind CSS via CDN"],
@@ -80,6 +70,16 @@ function Projects() {
             image: "public/social-network.png",
             deployed: "https://drive.google.com/file/d/1P5P0UGtThCpoft0UOY2Y5RlqbxU0FLaX/view",
             github: "https://github.com/ChaseLee21/Social-Network-Api"
+        },
+        {
+            title: "Poke-Pedia",
+            description: "Poke-Pedia was the first group project I worked on with classmates in my coding bootcamp. It uses the <a href='https://pokeapi.co/' target='_blank'>Pokeapi</a> to fetch all 1118 Pokemon. We then used this data to create an encyclopedia that allows users to search & view Pokemon. This was a really fun project for me to work on and it encapsulates a part of my coding journey that I will remember for a long time.",
+            frontend: ["JQuery", "Tailwind CSS via CDN"],
+            backend: ["Pokeapi"],
+            other: [],
+            image: "public/pokepedia.png",
+            deployed: "https://shhutc18.github.io/Poke-Pedia/",
+            github: "https://github.com/shhutc18/Poke-Pedia"
         },
     ];
 
