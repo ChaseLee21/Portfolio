@@ -8,7 +8,6 @@ function Header() {
             <ul className="flex flex-row justify-evenly m-2">
                 <li className="px-2"><Link to="/">About Me</Link></li>
                 <li className="px-2"><Link to="/projects">Projects</Link></li>
-                <li className="px-2"><Link to="/contact">Contact</Link></li>
                 <li className="px-2"><Link to="/resume">Resume</Link></li>
             </ul> 
         </nav>
