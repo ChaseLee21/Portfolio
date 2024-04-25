@@ -24,8 +24,18 @@ function Projects() {
             github: "https://github.com/shhutc18/The-Tech-Umbrella"
         },
         {
+            title: "Search Engine for Books using GraphQL",
+            description: "This project was done during the coding bootcamp I went through at the University of Oregon. This project had starter code given to me and my task was to implement GraphQL in both the backend and frontend. Specifically I created a GraphQL typeDefs and resolver schema on the backend and implemented queries and mutations in the frontend. These queries and mutations allowed a user to login or register, and add or remove books in their favorites list.",
+            frontend: ["React", "React Router", "Apollo Client", "GraphQL", "Bootstrap", "Google Books API"],
+            backend: ["Apollo Server", "GraphQL", "Express", "Mongoose", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
+            other: [],
+            image: "public/book-search-graphql.png",
+            deployed: "https://graphql-book-search-engine.onrender.com/",
+            github: "https://github.com/shhutc18/The-Tech-Umbrella"
+        },
+        {
             title: "Daily Planner",
-            description: "Daily Planner was the second group project I worked on in my coding bootcamp. We had two main goals for this project: first was to create a daily planner using the model, view, controller (MVC) design pattern, and second was to implement a user authentication system. We used a handful of new technologies to achieve these goals and I learned a lot about how to structure a project in a way that is scalable and maintainable. Below are some of the technologies used to build the application.",
+            description: "Daily Planner was the second group project I worked on in my coding bootcamp. We had two main goals for this project: first was to create a daily planner using the model, view, controller (MVC) design pattern. The second was to implement a user authentication system. We used a handful of new technologies to achieve these goals and I learned a lot about how to structure a project in a way that is scalable and maintainable. Below are some of the technologies used to build the application.",
             frontend: ["Handlebars.js", "Tailwind CSS via CDN"],
             backend: ["Node.js", "Express", "Sequelize", "Passport.js", "Mysql", "Express Sessions", "Express Handlebars", "Dotenv", "Crypto"],
             other: [],
@@ -84,8 +94,8 @@ function Projects() {
         {
             title: "Poke-Pedia",
             description: "Poke-Pedia was the first group project I worked on with classmates in my coding bootcamp. It uses the <a href='https://pokeapi.co/' target='_blank'>Pokeapi</a> to fetch all 1118 Pokemon. We then used this data to create an encyclopedia that allows users to search & view Pokemon. This was a really fun project for me to work on and it encapsulates a part of my coding journey that I will remember for a long time.",
-            frontend: ["JQuery", "Tailwind CSS via CDN"],
-            backend: ["Pokeapi"],
+            frontend: ["JQuery", "Tailwind CSS via CDN", "Pokeapi"],
+            backend: [],
             other: [],
             image: "public/pokepedia.png",
             deployed: "https://shhutc18.github.io/Poke-Pedia/",
