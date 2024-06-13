@@ -3,9 +3,9 @@ function AboutMe() {
         <section className="bg-white bg-opacity-85 rounded m-2 p-2 lg:m-4 xl:m-8">
             <h2 className="font-bold text-xl md:text-2xl xl:text-4xl m-2 text-center">About Me</h2>
             <div className="flex flex-col justify-center items-center">
-                <figure className="flex justify-center items-center">
-                    <img className="rounded-md m-3 max-w-[30vw]" src={"/portrait.jpg"} alt="Me at the beach" />
-                    <figcaption className="text-center max-w-[90%] lg:max-w-[50%]">
+                <figure className="flex-col md:flex md:flex-row justify-center items-center">
+                    <img className="rounded-md m-auto h-auto w-full md:w-1/2" src={"/portrait.jpg"} alt="Me at the beach" />
+                    <figcaption className="text-center w-full md:w-1/2 p-2">
                         My web development journey started when I was 14 in high school and I took a class on HTML, CSS, and Javascript.
                         I enjoyed writing code and seeing how I could create an application that could be used by others to help them.
                         Computers and technology has always interested me and I love learning about how they work and how I can use them to make my life easier.
