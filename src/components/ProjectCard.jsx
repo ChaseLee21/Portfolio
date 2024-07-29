@@ -14,8 +14,8 @@ function ProjectCard({ project }) {
     });
 
   return (
-    <main>
-        <section className="flex flex-col justify-center my-6">
+    <section>
+        <article className="flex flex-col justify-center my-6">
             <h3 className="text-center text-lg lg:text-2xl">
                 <a className="text-center underline text-blue-600 hover:text-blue-900" href={project.deployed} target="_blank">
                     { project.title }
@@ -32,8 +32,8 @@ function ProjectCard({ project }) {
                 {backendList.length > 0 && <List items={backendList} title={'Backend Dependencies:'} />}
                 {otherList.length > 0 && <List items={otherList} title={'Other Technologies Used:'} />}
             </div>
-        </section>
-    </main>
+        </article>
+    </section>
     );
 }
 

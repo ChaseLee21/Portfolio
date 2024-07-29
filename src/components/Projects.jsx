@@ -4,6 +4,16 @@ function Projects() {
 
     const projects = [
         {
+            title: "Habit Tracker",
+            description: "Habit Tracker is exactly what it sounds like. A way motivate myself to create new habits, track my progress, and encourage change. I wanted to apply my knowledge of full-stack web development to create something I actually care about and could use in my daily life.",
+            frontend: ["React", "React Dom", "React Router Dom", "Tailwind CSS", "Axios", "Matter.js", "Moment Timezone", "Prop Types", "Emoji Picker Element"],
+            backend: ["Node.js", "Express", "Mongoose", "MongoDB Atlas", "Jsonwebtoken", "Dotenv", "Nodemailer", "Moment Timezone", "Cors", "Cookie Parser", "Crypto"],
+            other: [],
+            image: "/habit-tracker.png",
+            deployed: "https://habit-tracker-jukt.onrender.com/",
+            github: "https://github.com/ChaseLee21/Habit-Tracker"
+        },
+        {
             title: "Boise Tuxedo Shop",
             description: "Boisetuxedoshop.com is a public facing website I made for my families tuxedo and suit rental business. Included with the website is a custom admin dashboard that allows them to edit certain content of the website without the need of a developer (ex. add or change a product in their catalog). ",
             frontend: ["Vue 3", "Vue Router", "Tailwind CSS via CLI", "Google Maps API"],
@@ -100,17 +110,8 @@ function Projects() {
             image: "/pokepedia.png",
             deployed: "https://shhutc18.github.io/Poke-Pedia/",
             github: "https://github.com/shhutc18/Poke-Pedia"
-        },
-        {
-            title: "Habit Tracker",
-            description: "Habit Tracker is exactly what it sounds like. A way motivate myself to create new habits, track my progress, and encourage change. I wanted to apply my knowledge of full-stack web development to create something I actually care about and could use in my daily life.",
-            frontend: ["React", "React Dom", "React Router Dom", "Tailwind CSS", "Axios", "Matter.js", "Moment Timezone", "Prop Types", "Emoji Picker Element"],
-            backend: ["Node.js", "Express", "Mongoose", "MongoDB Atlas", "Jsonwebtoken", "Dotenv", "Nodemailer", "Moment Timezone", "Cors", "Cookie Parser", "Crypto"],
-            other: [],
-            image: "/habit-tracker.png",
-            deployed: "https://habit-tracker-jukt.onrender.com/",
-            github: "https://github.com/ChaseLee21/Habit-Tracker"
         }
+        
     ];
 
 
@@ -118,15 +119,9 @@ function Projects() {
         <main>
             <main className="bg-white bg-opacity-85 rounded m-2 p-2 lg:m-4 xl:m-8 ">
                 <h2 className='text-xl md:text-2xl xl:text-4xl text-center font-bold mb-2'>Portfolio</h2>
-                <ProjectCard project={projects[8]} />
-                <ProjectCard project={projects[0]} />
-                <ProjectCard project={projects[1]} />
-                <ProjectCard project={projects[2]} />
-                <ProjectCard project={projects[3]} />
-                <ProjectCard project={projects[4]} />
-                <ProjectCard project={projects[5]} />
-                <ProjectCard project={projects[6]} />
-                <ProjectCard project={projects[7]} />
+                {projects && projects.length > 0 && projects.map((project, index) => {
+                    return <ProjectCard key={index} project={project} />
+                })}
             </main>
         </main>
     );
