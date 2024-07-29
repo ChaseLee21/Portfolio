@@ -28,9 +28,9 @@ function ProjectCard({ project }) {
                 <figure className="hover:opacity-50 hover:cursor-pointer">
                     <a href={project.deployed} target="_blank"><img className="max-w-[30vw] rounded border-black border-2 m-auto" src={project.image} alt={project.imageAlt} /></a>
                 </figure>
-                {frontendList.length > 0 && <List items={frontendList} title={'Frontend:'} />}
-                {backendList.length > 0 && <List items={backendList} title={'Backend:'} />}
-                {otherList.length > 0 && <List items={otherList} title={'Other Packages / Technologies:'} />}
+                {frontendList.length > 0 && <List items={frontendList} title={'Frontend Dependencies:'} />}
+                {backendList.length > 0 && <List items={backendList} title={'Backend Dependencies:'} />}
+                {otherList.length > 0 && <List items={otherList} title={'Other Technologies Used:'} />}
             </div>
         </section>
     </main>
