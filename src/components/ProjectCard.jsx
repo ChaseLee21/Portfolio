@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
 
   return (
     <section>
-        <article className="flex flex-col justify-center my-6 lg:my-6 lg:max-w-[66vw] lg:m-auto">
+        <article className="flex flex-col justify-center">
             <div className='flex flex-col justify-center m-auto'>
                 <h3 className="text-center text-2xl font-bold">{ project.title }</h3>
                 <ul className='flex'>

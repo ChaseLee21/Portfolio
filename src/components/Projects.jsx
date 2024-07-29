@@ -117,7 +117,7 @@ function Projects() {
 
     return (
         <div>
-            <main className="bg-white bg-opacity-85 flex flex-col w-fit p-2 m-2 lg:mx-auto lg:my-4 rounded">
+            <main className="bg-white bg-opacity-85 flex flex-col w-auto p-2 m-2 rounded my-6 lg:my-6 lg:max-w-[66vw] lg:min-w-[66vw] lg:mx-auto">
                 <h2 className='text-4xl text-center font-bold mb-2'>Projects</h2>
                 {projects && projects.length > 0 && projects.map((project, index) => {
                     return <ProjectCard key={index} project={project} />
