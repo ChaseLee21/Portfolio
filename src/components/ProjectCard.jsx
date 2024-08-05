@@ -18,7 +18,7 @@ function ProjectCard({ project }) {
         <article className="flex flex-col justify-center">
             <div className='flex flex-col justify-center m-auto'>
                 <h3 className="text-center text-2xl font-bold">{ project.title }</h3>
-                <ul className='flex'>
+                <ul className='flex justify-center'>
                     <li className='m-2'><a className="bg-blue-600 p-2 bg-opacity-75 rounded hover:bg-opacity-100" href={project.deployed} target="_blank">Deployed App</a></li>
                     <li className='m-2'><a className="bg-blue-600 p-2 bg-opacity-75 rounded hover:bg-opacity-100" href={project.github} target="_blank">Github</a></li>
                 </ul>
