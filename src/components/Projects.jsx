@@ -24,6 +24,16 @@ function Projects() {
             github: ""
         },
         {
+            title: "React Calculator",
+            description: "This is a simple calculator application that I built using React. I wanted to build this application to practice my React skills and to learn how to manage state in a React application. I had a lot of fun building this application and I learned a lot about React in the process.",
+            frontend: ["React", "React Dom", "Bootstrap"],
+            backend: [],
+            other: [],
+            image: "/react-calc.png",
+            deployed: "https://react-js-calculator.onrender.com/",
+            github: "https://github.com/ChaseLee21/React.js-Calculator"
+        },
+        {
             title: "The Tech Umbrella",
             description: "The Tech Umbrella was my final group project in my coding bootcamp. We were tasked with creating an application using the MERN stack (MongoDb, Express, React, Node). We created a blog application with the focus being on technology. Users can register an accout, login, create posts, browse posts from other users, comment on posts, and like posts. I specifically worked on creating the authentication system, and implementing GraphQL mutations and queries for both the backend and frontend. Note: The application is hosted on Render and may take a few seconds to load.",
             frontend: ["React", "React Router", "Tailwind CSS via CLI", "Apollo Client", "GraphQL"],
@@ -35,7 +45,7 @@ function Projects() {
         },
         {
             title: "Search Engine for Books using GraphQL",
-            description: "This project was done during the coding bootcamp I went through at the University of Oregon. This project had starter code given to me and my task was to implement GraphQL in both the backend and frontend. Specifically I created a GraphQL typeDefs and resolver schema on the backend and implemented queries and mutations in the frontend. These queries and mutations allowed a user to login or register, and add or remove books in their favorites list.",
+            description: "The deployed app may take a second to load due to it being hosted for free. This project was done during the coding bootcamp I went through at the University of Oregon. This project had starter code given to me and my task was to implement GraphQL in both the backend and frontend. Specifically I created a GraphQL typeDefs and resolver schema on the backend and implemented queries and mutations in the frontend. These queries and mutations allowed a user to login or register, and add or remove books in their favorites list.",
             frontend: ["React", "React Router", "Apollo Client", "GraphQL", "Bootstrap", "Google Books API"],
             backend: ["Apollo Server", "GraphQL", "Express", "Mongoose", "Bcrypt", "Jsonwebtoken", "Dotenv", "MongoDB Atlas"],
             other: [],
