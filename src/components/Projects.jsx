@@ -7,7 +7,7 @@ function Projects() {
             title: "Habit Tracker",
             description: "Habit Tracker is exactly what it sounds like. A way motivate myself to create new habits, track my progress, and encourage change. I wanted to apply my knowledge of full-stack web development to create something I actually care about and could use in my daily life.",
             frontend: ["React", "React Dom", "React Router Dom", "Tailwind CSS", "Axios", "Matter.js", "Moment Timezone", "Prop Types", "Emoji Picker Element"],
-            backend: ["Node.js", "Express", "Mongoose", "MongoDB Atlas", "Jsonwebtoken", "Dotenv", "Nodemailer", "Moment Timezone", "Cors", "Cookie Parser", "Crypto"],
+            backend: ["Node.js", "Express", "Mongoose", "MongoDB Atlas", "Jsonwebtoken", "Dotenv", "Nodemailer", "Moment Timezone", "Cors", "Cookie Parser", "Crypto", "Mocha", "Chai", "Supertest"],
             other: [],
             image: "/habit-tracker.png",
             deployed: "https://habit-tracker-jukt.onrender.com/",
