@@ -24,6 +24,16 @@ function Projects() {
             github: ""
         },
         {
+            title: "Test Automation Scripts - The Internet",
+            description: "Repository containing a series of test automation scripts coded with Selenium Webdriver. Using a website created by Dave Haeffner (the original writer of Selenium), named 'The Internet',  as a playground for writing the automated testing scripts",
+            frontend: [],
+            backend: [],
+            other: ["Selenium Webdriver", "Mocha"],
+            image: "/the-internet.png",
+            deployed: "https://the-internet.herokuapp.com/",
+            github: "https://github.com/ChaseLee21/Automated-Tests-The-Internet"
+        },
+        {
             title: "React Calculator",
             description: "This is a simple calculator application that I built using React. I wanted to build this application to practice my React skills and to learn how to manage state in a React application. I had a lot of fun building this application and I learned a lot about React in the process.",
             frontend: ["React", "React Dom", "Bootstrap"],

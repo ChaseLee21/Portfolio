@@ -30,7 +30,7 @@ function ProjectCard({ project }) {
                 </figure>
                 {frontendList.length > 0 && <List items={frontendList} title={'Frontend Dependencies:'} />}
                 {backendList.length > 0 && <List items={backendList} title={'Backend Dependencies:'} />}
-                {otherList.length > 0 && <List items={otherList} title={'Other Technologies Used:'} />}
+                {otherList.length > 0 && <List items={otherList} title={'Technologies Used:'} />}
             </div>
         </article>
     </section>
